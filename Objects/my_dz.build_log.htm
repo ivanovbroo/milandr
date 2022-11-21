@@ -1,0 +1,873 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: �Vision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nikita Ivanov, BMSTU, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+C:\Users\ivano\Desktop\my_dz_test\my_dz.uvprojx
+Project File Date:  11/17/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling Font_6x8.c...
+Basic/lcdtext.c(1): warning: In file included from...
+./Headers\lcdtext.h(13): warning: no newline at end of file [-Wnewline-eof]
+void IQRFlag(void);
+                   ^
+Basic/lcdtext.c(9): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                  LCD_PUTS(0, 0, "<D4><C8><CE>: ");
+                                  ^~~~~~~~~~~~
+Basic/lcdtext.c(12): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            LCD_PUTS(0, 16, "<C3><F0><F3><EF><EF><E0>: ");
+                             ^~~~~~~~~~~~~~~~~~~~~~~~
+Basic/lcdtext.c(15): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            LCD_PUTS(0, 32, "<D7><E0><F1><F2><EE><F2><E0> <CC><CA>: ");
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~
+Basic/lcdtext.c(17): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            LCD_PUTS(90, 32, "<CC><C3><F6>");
+                              ^~~~~~~~~~~~
+Basic/lcdtext.c(19): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            LCD_PUTS(0, 48, "<D7><E0><F1><F2><EE><F2><E0> <EF><F0><E5><F0><FB><E2>: ");
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~
+Basic/lcdtext.c(21): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            LCD_PUTS(108, 48, "<F1><E5><EA>");
+                               ^~~~~~~~~~~~
+Basic/lcdtext.c(25): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                  LCD_PUTS(0, 0, "<D1><EA><EE><F0> UART: ");
+                                  ^~~~~~~~~~~~~~~~
+Basic/lcdtext.c(27): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                  LCD_PUTS(100, 0, "<E1>/<F1>");
+                                    ^~~~ ~~~~
+Basic/lcdtext.c(29): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                        LCD_PUTS(0, 16, "<CA><EE><EB>-<E2><EE> <EF><F0><E5><F0><FB><E2>: ");
+                                         ^~~~~~~~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~
+Basic/lcdtext.c(50): warning: no newline at end of file [-Wnewline-eof]
+                                                
+                                                ^
+11 warnings generated.
+compiling lcdtext.c...
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(2): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead" [-W#warnings]
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(200): warning: padding size of 'PORT_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+Basic/settingsports.c(1): warning: In file included from...
+./Headers\settingsports.h(2): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(255): warning: padding size of 'UART_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+12 warnings generated.
+compiling settingsports.c...
+Basic/led.c(1): warning: In file included from...
+./Headers\led.h(3): warning: no newline at end of file [-Wnewline-eof]
+ 
+ ^
+Basic/led.c(2): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+Basic/led.c(2): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+Basic/led.c(2): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Basic/led.c(2): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+Basic/led.c(2): warning: In file included from...
+./Headers\settingsports.h(2): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead" [-W#warnings]
+11 warnings generated.
+compiling led.c...
+Basic/timer.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+Basic/timer.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+Basic/timer.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Basic/timer.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead" [-W#warnings]
+Basic/timer.c(2): warning: In file included from...
+./Headers\lcdtext.h(13): warning: no newline at end of file [-Wnewline-eof]
+void IQRFlag(void);
+                   ^
+7 warnings generated.
+compiling timer.c...
+Basic/main.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+Basic/main.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+Basic/main.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Basic/main.c(1): warning: In file included from...
+./Headers\timer.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead" [-W#warnings]
+Basic/main.c(2): warning: In file included from...
+./Headers\settingsports.h(1): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+Basic/main.c(2): warning: In file included from...
+./Headers\settingsports.h(2): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead" [-W#warnings]
+Basic/main.c(3): warning: In file included from...
+./Headers\lcdtext.h(13): warning: no newline at end of file [-Wnewline-eof]
+void IQRFlag(void);
+                   ^
+Basic/main.c(5): warning: In file included from...
+./Headers\led.h(3): warning: no newline at end of file [-Wnewline-eof]
+ 
+ ^
+Basic/main.c(18): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+         const char name[]  = "<C8><E2><E0><ED><EE><E2> <CD>. <CD>.";
+                               ^~~~~~~~~~~~~~~~~~~~~~~~ ~~~~  ~~~~
+Basic/main.c(19): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+         const char group[] = "<D0><CB>1-119";
+                               ^~~~~~~~
+16 warnings generated.
+compiling main.c...
+Display/lcd.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+Display/lcd.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+Display/lcd.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Display/lcd.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD" [-W#warnings]
+Display/lcd.c(58): warning: no previous prototype for function 'WRITE_DATA' [-Wmissing-prototypes]
+void WRITE_DATA(u32 data)
+     ^
+Display/lcd.c(58): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void WRITE_DATA(u32 data)
+^
+static 
+Display/lcd.c(66): warning: no previous prototype for function 'READ_DATA' [-Wmissing-prototypes]
+u32 READ_DATA()
+    ^
+Display/lcd.c(66): note: declare 'static' if the function is not intended to be used outside of this translation unit
+u32 READ_DATA()
+^
+static 
+Display/lcd.c(66): warning: this old-style function definition is not preceded by a prototype [-Wstrict-prototypes]
+u32 READ_DATA()
+             ^
+Display/lcd.c(90): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+      MDR_PORTB->RXTX &= ~0x00000200;
+                      ~~ ^~~~~~~~~~~
+Display/lcd.c(98): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    MDR_PORTA->FUNC &= ~(0x00000FFF);   // Main Function для DATA[5:0] 
+                    ~~ ^~~~~~~~~~~~~
+Display/lcd.c(103): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    MDR_PORTB->FUNC &= ~(0x003FC000);   // Main Function для E1=B7 & E2=B8 & Reset=B9 & RW=B10 
+                    ~~ ^~~~~~~~~~~~~
+Display/lcd.c(108): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    MDR_PORTC->FUNC &= ~(0x0000000F);   // Main Function для E=1 & A0=0
+                    ~~ ^~~~~~~~~~~~~
+Display/lcd.c(113): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    MDR_PORTF->FUNC &= ~(0x000000F0);   // Main Function для DATA[7:6]
+                    ~~ ^~~~~~~~~~~~~
+Display/lcd.c(119): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_A0();
+    ^~~~~~~~~~
+Display/lcd.c(51): note: expanded from macro 'CLEAR_A0'
+#define CLEAR_A0()  MDR_PORTC->RXTX &= ~(1<<0)
+                                    ~~ ^~~~~~~
+Display/lcd.c(122): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    DATA_LINE_READ();
+    ^~~~~~~~~~~~~~~~
+Display/lcd.c(54): note: expanded from macro 'DATA_LINE_READ'
+#define DATA_LINE_READ()    MDR_PORTA->OE &= ~0x003F; MDR_PORTF->OE &= ~0x000C
+                                          ~~ ^~~~~~~
+Display/lcd.c(122): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    DATA_LINE_READ();
+    ^~~~~~~~~~~~~~~~
+Display/lcd.c(54): note: expanded from macro 'DATA_LINE_READ'
+#define DATA_LINE_READ()    MDR_PORTA->OE &= ~0x003F; MDR_PORTF->OE &= ~0x000C
+                                                                    ~~ ^~~~~~~
+Display/lcd.c(129): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+   MDR_PORTB->RXTX |= ((num + 1) << 7);
+                   ~~  ~~~~~~~~~~^~~~
+Display/lcd.c(143): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    WRITE_RW();
+    ^~~~~~~~~~
+Display/lcd.c(49): note: expanded from macro 'WRITE_RW'
+#define WRITE_RW()  MDR_PORTB->RXTX &= ~(1<<10)
+                                    ~~ ^~~~~~~~
+Display/lcd.c(144): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_A0();
+    ^~~~~~~~~~
+Display/lcd.c(51): note: expanded from macro 'CLEAR_A0'
+#define CLEAR_A0()  MDR_PORTC->RXTX &= ~(1<<0)
+                                    ~~ ^~~~~~~
+Display/lcd.c(149): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_E();
+    ^~~~~~~~~
+Display/lcd.c(53): note: expanded from macro 'CLEAR_E'
+#define CLEAR_E()   MDR_PORTC->RXTX &= ~(1<<1)
+                                    ~~ ^~~~~~~
+Display/lcd.c(162): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    WRITE_RW();
+    ^~~~~~~~~~
+Display/lcd.c(49): note: expanded from macro 'WRITE_RW'
+#define WRITE_RW()  MDR_PORTB->RXTX &= ~(1<<10)
+                                    ~~ ^~~~~~~~
+Display/lcd.c(168): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_E();
+    ^~~~~~~~~
+Display/lcd.c(53): note: expanded from macro 'CLEAR_E'
+#define CLEAR_E()   MDR_PORTC->RXTX &= ~(1<<1)
+                                    ~~ ^~~~~~~
+Display/lcd.c(181): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    DATA_LINE_READ();
+    ^~~~~~~~~~~~~~~~
+Display/lcd.c(54): note: expanded from macro 'DATA_LINE_READ'
+#define DATA_LINE_READ()    MDR_PORTA->OE &= ~0x003F; MDR_PORTF->OE &= ~0x000C
+                                          ~~ ^~~~~~~
+Display/lcd.c(181): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    DATA_LINE_READ();
+    ^~~~~~~~~~~~~~~~
+Display/lcd.c(54): note: expanded from macro 'DATA_LINE_READ'
+#define DATA_LINE_READ()    MDR_PORTA->OE &= ~0x003F; MDR_PORTF->OE &= ~0x000C
+                                                                    ~~ ^~~~~~~
+Display/lcd.c(183): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_A0();
+    ^~~~~~~~~~
+Display/lcd.c(51): note: expanded from macro 'CLEAR_A0'
+#define CLEAR_A0()  MDR_PORTC->RXTX &= ~(1<<0)
+                                    ~~ ^~~~~~~
+Display/lcd.c(186): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_E();
+    ^~~~~~~~~
+Display/lcd.c(53): note: expanded from macro 'CLEAR_E'
+#define CLEAR_E()   MDR_PORTC->RXTX &= ~(1<<1)
+                                    ~~ ^~~~~~~
+Display/lcd.c(192): warning: implicit conversion loses integer precision: 'u32' (aka 'unsigned long') to 'unsigned char' [-Wimplicit-int-conversion]
+    return ret;
+    ~~~~~~ ^~~
+Display/lcd.c(203): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    DATA_LINE_READ();
+    ^~~~~~~~~~~~~~~~
+Display/lcd.c(54): note: expanded from macro 'DATA_LINE_READ'
+#define DATA_LINE_READ()    MDR_PORTA->OE &= ~0x003F; MDR_PORTF->OE &= ~0x000C
+                                          ~~ ^~~~~~~
+Display/lcd.c(203): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    DATA_LINE_READ();
+    ^~~~~~~~~~~~~~~~
+Display/lcd.c(54): note: expanded from macro 'DATA_LINE_READ'
+#define DATA_LINE_READ()    MDR_PORTA->OE &= ~0x003F; MDR_PORTF->OE &= ~0x000C
+                                                                    ~~ ^~~~~~~
+Display/lcd.c(208): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_E();
+    ^~~~~~~~~
+Display/lcd.c(53): note: expanded from macro 'CLEAR_E'
+#define CLEAR_E()   MDR_PORTC->RXTX &= ~(1<<1)
+                                    ~~ ^~~~~~~
+Display/lcd.c(213): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    CLEAR_E();
+    ^~~~~~~~~
+Display/lcd.c(53): note: expanded from macro 'CLEAR_E'
+#define CLEAR_E()   MDR_PORTC->RXTX &= ~(1<<1)
+                                    ~~ ^~~~~~~
+Display/lcd.c(217): warning: implicit conversion loses integer precision: 'u32' (aka 'unsigned long') to 'unsigned char' [-Wimplicit-int-conversion]
+    ret = READ_DATA();
+        ~ ^~~~~~~~~~~
+Display/lcd.c(256): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+        LCD_SET_PAGE(i);
+        ^~~~~~~~~~~~~~~
+./Display/lcd.h(84): note: expanded from macro 'LCD_SET_PAGE'
+#define LCD_SET_PAGE(x)             WriteLCD_Cmd(0xB8 | x)
+                                    ~~~~~~~~~~~~ ~~~~~^~~
+36 warnings generated.
+compiling lcd.c...
+Display/systick.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+Display/systick.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+Display/systick.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Display/systick.c(20): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD" [-W#warnings]
+Display/systick.c(41): warning: no previous prototype for function 'SysTick_Handler' [-Wmissing-prototypes]
+void SysTick_Handler(void) {
+     ^
+Display/systick.c(41): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SysTick_Handler(void) {
+^
+static 
+9 warnings generated.
+compiling systick.c...
+Display/text.c(49): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+    LCD_SET_PAGE(page);
+    ^~~~~~~~~~~~~~~~~~
+./Display/lcd.h(84): note: expanded from macro 'LCD_SET_PAGE'
+#define LCD_SET_PAGE(x)             WriteLCD_Cmd(0xB8 | x)
+                                    ~~~~~~~~~~~~ ~~~~~^~~
+Display/text.c(53): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+    LCD_SET_PAGE(page);
+    ^~~~~~~~~~~~~~~~~~
+./Display/lcd.h(84): note: expanded from macro 'LCD_SET_PAGE'
+#define LCD_SET_PAGE(x)             WriteLCD_Cmd(0xB8 | x)
+                                    ~~~~~~~~~~~~ ~~~~~^~~
+Display/text.c(57): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data | (data << shift_num));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+Display/text.c(57): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+                WriteLCD_Data(tmp_data | (data << shift_num));
+                                       ~  ~~~~~^~~~~~~~~~~~
+Display/text.c(60): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data ^ (data << shift_num));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+Display/text.c(60): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+                WriteLCD_Data(tmp_data ^ (data << shift_num));
+                                       ~  ~~~~~^~~~~~~~~~~~
+Display/text.c(63): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data | ((data ^ 0xFF) << shift_num));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(63): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+                WriteLCD_Data(tmp_data | ((data ^ 0xFF) << shift_num));
+                                       ~  ~~~~~~~~~~~~~~^~~~~~~~~~~~
+Display/text.c(66): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data ^ ((data ^ 0xFF) << shift_num));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(66): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+                WriteLCD_Data(tmp_data ^ ((data ^ 0xFF) << shift_num));
+                                       ~  ~~~~~~~~~~~~~~^~~~~~~~~~~~
+Display/text.c(69): warning: '&' within '|' [-Wbitwise-op-parentheses]
+                WriteLCD_Data(tmp_data&(0xFF >> shift_num_ex) | (data << shift_num));
+                              ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~ ~
+Display/text.c(69): note: place parentheses around the '&' expression to silence this warning
+                WriteLCD_Data(tmp_data&(0xFF >> shift_num_ex) | (data << shift_num));
+                                      ^
+                              (                              )
+Display/text.c(69): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data&(0xFF >> shift_num_ex) | (data << shift_num));
+                ~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+Display/text.c(69): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+                WriteLCD_Data(tmp_data&(0xFF >> shift_num_ex) | (data << shift_num));
+                                                              ~  ~~~~~^~~~~~~~~~~~
+Display/text.c(76): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+        LCD_SET_PAGE(page+1);
+        ^~~~~~~~~~~~~~~~~~~~
+./Display/lcd.h(84): note: expanded from macro 'LCD_SET_PAGE'
+#define LCD_SET_PAGE(x)             WriteLCD_Cmd(0xB8 | x)
+                                    ~~~~~~~~~~~~ ~~~~~^~~
+Display/text.c(80): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+        LCD_SET_PAGE(page+1);
+        ^~~~~~~~~~~~~~~~~~~~
+./Display/lcd.h(84): note: expanded from macro 'LCD_SET_PAGE'
+#define LCD_SET_PAGE(x)             WriteLCD_Cmd(0xB8 | x)
+                                    ~~~~~~~~~~~~ ~~~~~^~~
+Display/text.c(84): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data | (data >> shift_num_ex));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(87): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data ^ (data >> shift_num_ex));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(90): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data | ((data ^ 0xFF) >> shift_num_ex));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(93): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data ^ ((data ^ 0xFF)>> shift_num_ex));
+                ~~~~~~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(96): warning: '&' within '|' [-Wbitwise-op-parentheses]
+                WriteLCD_Data(tmp_data & (0xFF << shift_num) | (data >> shift_num_ex));
+                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~ ~
+Display/text.c(96): note: place parentheses around the '&' expression to silence this warning
+                WriteLCD_Data(tmp_data & (0xFF << shift_num) | (data >> shift_num_ex));
+                                       ^
+                              (                             )
+Display/text.c(96): warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned char' [-Wimplicit-int-conversion]
+                WriteLCD_Data(tmp_data & (0xFF << shift_num) | (data >> shift_num_ex));
+                ~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(96): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+                WriteLCD_Data(tmp_data & (0xFF << shift_num) | (data >> shift_num_ex));
+                                       ~  ~~~~~^~~~~~~~~~~~
+Display/text.c(116): warning: implicit conversion loses integer precision: 'unsigned long' to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+            LCD_PUT_BYTE(x + i, y + j*8, sym[i + CurrentFont->Width*j]);
+            ~~~~~~~~~~~~        ~~^~~~~
+Display/text.c(116): warning: implicit conversion loses integer precision: 'unsigned long' to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+            LCD_PUT_BYTE(x + i, y + j*8, sym[i + CurrentFont->Width*j]);
+            ~~~~~~~~~~~~ ~~^~~
+Display/text.c(124): warning: implicit conversion loses integer precision: 'unsigned long' to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+        LCD_PUTC(x + i*CurrentFont->Width, y, str[i]);
+        ~~~~~~~~ ~~^~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(131): warning: implicitly declaring library function 'sprintf' with type 'int (char *, const char *, ...)' [-Wimplicit-function-declaration]
+                sprintf(str, "%d", value);
+                ^
+Display/text.c(131): note: include the header <stdio.h> or explicitly provide a declaration for 'sprintf'
+Display/text.c(134): warning: implicit conversion loses integer precision: 'unsigned long' to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+        LCD_PUTC(x + i*CurrentFont->Width, y, str[i]);
+        ~~~~~~~~ ~~^~~~~~~~~~~~~~~~~~~~~~
+Display/text.c(155): warning: implicit conversion loses integer precision: 'unsigned long' to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+                LCD_PUTC(x + ((CurrentFont->Width) * i), y, 0x20);
+                ~~~~~~~~ ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+28 warnings generated.
+compiling text.c...
+assembling startup_MDR32F9Qx.S...
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/MDR1986BE92/system_MDR32F9Qx.c(22): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(843): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD_Pos will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD_Pos" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(856): warning: "Legacy v1.5.3: RST_CLK_PLL_CONTROL_PLL_CPU_PLD will be replaced by RST_CLK_PLL_CONTROL_PLL_CPU_RLD" [-W#warnings]
+8 warnings generated.
+compiling system_MDR32F9Qx.c...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(138): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_OE     = (tmpreg_OE     & ~mask_s) | (PORT_InitStruct->PORT_OE        <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(139): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_FUNC   = (tmpreg_FUNC   & ~mask_l) | (PORT_InitStruct->PORT_FUNC      << (pos * 2));
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(140): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_ANALOG = (tmpreg_ANALOG & ~mask_s) | (PORT_InitStruct->PORT_MODE      <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(142): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                      | (PORT_InitStruct->PORT_PULL_DOWN <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(141): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_PULL   = (tmpreg_PULL   & ~mask_d) | (PORT_InitStruct->PORT_PULL_UP   << (pos + 16))
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(144): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                      | (PORT_InitStruct->PORT_PD        <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(143): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_PD     = (tmpreg_PD     & ~mask_d) | (PORT_InitStruct->PORT_PD_SHM    << (pos + 16))
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(145): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_PWR    = (tmpreg_PWR    & ~mask_l) | (PORT_InitStruct->PORT_SPEED     << (pos * 2));
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(146): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            tmpreg_GFEN   = (tmpreg_GFEN   & ~mask_s) | (PORT_InitStruct->PORT_GFEN      <<  pos);
+                                                      ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(200): warning: padding size of 'PORT_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+18 warnings generated.
+compiling MDR32F9Qx_port.c...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_rst_clk.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_rst_clk.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_rst_clk.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(37): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: Clock frequencies and timeouts will be removed from MDR32F9Qx_rst_clk.c. Use definitions in MDR32F9Qx_config.h"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(37): warning: "Legacy v1.5.3: Clock frequencies and timeouts will be removed from MDR32F9Qx_rst_clk.c. Use definitions in MDR32F9Qx_config.h" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(249): warning: enumeration value 'RST_CLK_HSE_OFF' not explicitly handled in switch [-Wswitch-enum]
+    switch (RST_CLK_HSE)
+            ^~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c(374): warning: enumeration value 'RST_CLK_LSE_OFF' not explicitly handled in switch [-Wswitch-enum]
+    switch (RST_CLK_LSE)
+            ^~~~~~~~~~~
+8 warnings generated.
+compiling MDR32F9Qx_rst_clk.c...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(153): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                         + TIMER_CntInitStruct->TIMER_BRK_Polarity;
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(254): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return TIMERx->CNT;
+    ~~~~~~ ~~~~~~~~^~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(288): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return (TIMERx->PSG);
+    ~~~~~~  ~~~~~~~~^~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(360): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return (TIMERx->ARR);
+    ~~~~~~  ~~~~~~~~^~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(676): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                    + (TIMER_ChnInitStruct->TIMER_CH_FilterConf << TIMER_CH_CNTRL_CHFLTR_Pos);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(809): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return tmpreg;
+    ~~~~~~ ^~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(901): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    return tmpreg;
+    ~~~~~~ ^~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1248): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                     + (TIMER_ChnOutInitStruct->TIMER_CH_NegOut_Mode     << TIMER_CH_CNTRL1_NSELOE_Pos);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1256): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                  +  TIMER_ChnOutInitStruct->TIMER_CH_DTG_ClockSource;
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1784): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        tmpreg |= TIMER_BRG << RST_CLK_TIM_CLOCK_TIM1_BRG_Pos;
+               ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1790): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        tmpreg |= TIMER_BRG << RST_CLK_TIM_CLOCK_TIM2_BRG_Pos;
+               ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c(1796): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        tmpreg |= TIMER_BRG << RST_CLK_TIM_CLOCK_TIM3_BRG_Pos;
+               ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+18 warnings generated.
+compiling MDR32F9Qx_timer.c...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: #warning is a language extension [-Wpedantic]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(130): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(81): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead"
+     ^
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(47): warning: "Legacy v1.5.3: BaudRateStatus enumeration is deprecated. Use @ref ErrorStatus instead" [-W#warnings]
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(195): warning: implicit conversion changes signedness: 'unsigned int' to 'int32_t' (aka 'int') [-Wsign-conversion]
+            / UART_InitStruct->UART_BaudRate;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(223): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    tmpreg &= ~CR_FC_Mask;
+           ~~ ^~~~~~~~~~~
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c(23): warning: In file included from...
+C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_uart.h(255): warning: padding size of 'UART_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+9 warnings generated.
+compiling MDR32F9Qx_uart.c...
+linking...
+Program Size: Code=13572 RO-data=864 RW-data=1556 ZI-data=1664  
+FromELF: creating hex file...
+".\Objects\my_dz.axf" - 0 Error(s), 191 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://ic.milandr.ru/soft/Keil.MDR1986BExx.2.0.3.pack
+                Keil.MDR1986BExx.2.0.3
+                Milandr MDR1986BExx Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.0.3
+   * Component: PORT Version: 2.0.3
+   * Component: RST_CLK Version: 2.0.3
+   * Component: TIMER Version: 2.0.3
+   * Component: UART Version: 2.0.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/MDR1986BE92
+  ./RTE/_Target_1
+  C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3
+  C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc
+  C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:2.0.3
+      Source file:   Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/startup/arm/startup_MDR32F9Qx.S
+      Source file:   Libraries/SPL/MDR32Fx/src/IRQ_Handler_Template/MDR32F9Qx_IT.c
+      Source file:   Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/startup/arm/system_MDR32F9Qx.c
+      Include file:  Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/startup/arm/system_MDR32F9Qx.h
+      Include file:  Libraries/CMSIS/MDR32Fx/CoreSupport/CM3/core_cm3.h
+      Include file:  Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc/MDR32Fx.h
+      Include file:  Libraries/SPL/MDR32Fx/MDR32F9Qx_config.h
+      Include file:  Libraries/SPL/MDR32Fx/inc/IRQ_Handler_Template/MDR32F9Qx_IT.h
+
+   * Component: Keil::Drivers:PORT:2.0.3
+      Source file:   Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c
+      Include file:  Libraries/SPL/MDR32Fx/inc/MDR32F9Qx_port.h
+
+   * Component: Keil::Drivers:RST_CLK:2.0.3
+      Source file:   Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c
+      Include file:  Libraries/SPL/MDR32Fx/inc/MDR32F9Qx_rst_clk.h
+
+   * Component: Keil::Drivers:TIMER:2.0.3
+      Include file:  Libraries/SPL/MDR32Fx/inc/MDR32F9Qx_timer.h
+      Source file:   Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c
+
+   * Component: Keil::Drivers:UART:2.0.3
+      Source file:   Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c
+      Include file:  Libraries/SPL/MDR32Fx/inc/MDR32F9Qx_uart.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

@@ -1,0 +1,168 @@
+Dependencies for Project 'my_dz', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\Basic\main.c)(0x6378EB00)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
+I (Headers\timer.h)(0x63779CE6)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (Headers\settingsports.h)(0x6378E290)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_uart.h)(0x6149DE84)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)
+I (Headers\lcdtext.h)(0x63779DC8)
+I (Display\lcd.h)(0x571A4E2A)
+I (Display\types.h)(0x5217C8EC)
+I (Display\text.h)(0x637668F7)
+I (Display\font_defs.h)(0x571A408A)
+I (Display\systick.h)(0x571A504E)
+I (Headers\led.h)(0x637659F1)
+F (.\Basic\led.c)(0x63768561)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/led.o -MD)
+I (Headers\led.h)(0x637659F1)
+I (Headers\settingsports.h)(0x6378E290)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_uart.h)(0x6149DE84)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)
+F (.\Basic\settingsports.c)(0x6378E58D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/settingsports.o -MD)
+I (Headers\settingsports.h)(0x6378E290)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_uart.h)(0x6149DE84)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)
+F (.\Basic\timer.c)(0x6377A0F7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/timer.o -MD)
+I (Headers\timer.h)(0x63779CE6)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (Headers\lcdtext.h)(0x63779DC8)
+I (Display\lcd.h)(0x571A4E2A)
+I (Display\types.h)(0x5217C8EC)
+I (Display\text.h)(0x637668F7)
+I (Display\font_defs.h)(0x571A408A)
+F (.\Basic\lcdtext.c)(0x6377A0F7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/lcdtext.o -MD)
+I (Headers\lcdtext.h)(0x63779DC8)
+I (Display\lcd.h)(0x571A4E2A)
+I (Display\types.h)(0x5217C8EC)
+I (Display\text.h)(0x637668F7)
+I (Display\font_defs.h)(0x571A408A)
+F (.\Headers\led.h)(0x637659F1)()
+F (.\Headers\settingsports.h)(0x6378E290)()
+F (.\Headers\timer.h)(0x63779CE6)()
+F (.\Headers\lcdtext.h)(0x63779DC8)()
+F (.\Display\Font_6x8.c)(0x5217C924)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/font_6x8.o -MD)
+I (Display\font_defs.h)(0x571A408A)
+I (Display\types.h)(0x5217C8EC)
+F (.\Display\font_defs.h)(0x571A408A)()
+F (.\Display\lcd.c)(0x637651AA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/lcd.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (Display\lcd.h)(0x571A4E2A)
+I (Display\types.h)(0x5217C8EC)
+F (.\Display\lcd.h)(0x571A4E2A)()
+F (.\Display\systick.c)(0x5738735E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/systick.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (Display\systick.h)(0x571A504E)
+I (Display\types.h)(0x5217C8EC)
+F (.\Display\systick.h)(0x571A504E)()
+F (.\Display\text.c)(0x63766F0E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/text.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6252A726)
+I (Display\lcd.h)(0x571A4E2A)
+I (Display\types.h)(0x5217C8EC)
+I (Display\text.h)(0x637668F7)
+I (Display\font_defs.h)(0x571A408A)
+I (Display\systick.h)(0x571A504E)
+F (.\Display\text.h)(0x637668F7)()
+F (.\Display\types.h)(0x5217C8EC)()
+F (RTE/Device/MDR1986BE92/MDR1986VE9x.sct)(0x6114C5F2)()
+F (RTE/Device/MDR1986BE92/MDR32F9Qx_config.h)(0x614C33D2)()
+F (RTE/Device/MDR1986BE92/startup_MDR32F9Qx.S)(0x6114C5F2)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -D__EVAL-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION=537 -D_RTE_ -D_RTE_-o ./objects/startup_mdr32f9qx.o)
+F (RTE/Device/MDR1986BE92/system_MDR32F9Qx.c)(0x6114C5F2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/system_mdr32f9qx.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+F (RTE/Device/MDR1986BE92/system_MDR32F9Qx.h)(0x6114C5F2)()
+F (C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_port.c)(0x6149DE84)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/mdr32f9qx_port.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+F (C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_rst_clk.c)(0x6149DE84)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/mdr32f9qx_rst_clk.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+F (C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_timer.c)(0x6149DE84)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/mdr32f9qx_timer.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+F (C:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/src/MDR32F9Qx_uart.c)(0x6149DE84)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Generic -I ./Basic -I ./Display -I ./Headers-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/ivano/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o ./objects/mdr32f9qx_uart.o -MD)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_uart.h)(0x6149DE84)
+I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (RTE\_Target_1\RTE_Components.h)(0x6370EF3F)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE9x\inc\MDR32Fx.h)(0x614AC30E)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cm3.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x6114C5F2)
+I (C:\Users\ivano\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)

@@ -1,0 +1,3 @@
+//рур 
+ void flashingDiode(void);
+ 
