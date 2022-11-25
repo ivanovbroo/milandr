@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\my_dz.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\my_dz.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6180002: Last Updated: Sat Nov 19 17:41:08 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6180002: Last Updated: Tue Nov 22 11:41:41 2022
 <BR><P>
-<H3>Maximum Stack Usage =        536 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        552 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 __rt_entry_main &rArr; main &rArr; lcdTxt &rArr; LCD_PUTS_UNINT &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
 <P>
@@ -349,7 +349,7 @@ Global Symbols
 <P><STRONG><a name="[d4]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[53]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 536 + Unknown Stack Size
+<BR><BR>[Stack]<UL><LI>Max Depth = 552 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_main &rArr; main &rArr; lcdTxt &rArr; LCD_PUTS_UNINT &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -507,6 +507,7 @@ Global Symbols
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
 </UL>
 <BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS_UNINT
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[d7]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
@@ -871,7 +872,6 @@ Global Symbols
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaitStatus
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdInit
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[81]"></a>LCD_INIT</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, lcd.o(.text.LCD_INIT))
@@ -891,8 +891,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUT_BYTE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS_UNINT
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS_UNINT
 </UL>
 
 <P><STRONG><a name="[86]"></a>LCD_PUTS</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, text.o(.text.LCD_PUTS))
@@ -911,6 +911,7 @@ Global Symbols
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTC
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdTxt
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[85]"></a>LCD_PUT_BYTE</STRONG> (Thumb, 522 bytes, Stack size 40 bytes, text.o(.text.LCD_PUT_BYTE))
@@ -999,8 +1000,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Pause
 </UL>
 <BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUT_BYTE
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
 </UL>
 
 <P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, systick.o(.text.SysTick_Handler))
@@ -1117,7 +1118,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[99]"></a>UART_ini</STRONG> (Thumb, 184 bytes, Stack size 80 bytes, settingsports.o(.text.UART_ini))
+<P><STRONG><a name="[99]"></a>UART_ini</STRONG> (Thumb, 186 bytes, Stack size 80 bytes, settingsports.o(.text.UART_ini))
 <BR><BR>[Stack]<UL><LI>Max Depth = 220<LI>Call Chain = UART_ini &rArr; UART_Init &rArr; RST_CLK_GetClocksFreq
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Cmd
@@ -1144,8 +1145,8 @@ Global Symbols
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Pause
 </UL>
 <BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUT_BYTE
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
 </UL>
 
 <P><STRONG><a name="[80]"></a>WriteLCD_Data</STRONG> (Thumb, 116 bytes, Stack size 16 bytes, lcd.o(.text.WriteLCD_Data))
@@ -1170,30 +1171,31 @@ Global Symbols
 <P><STRONG><a name="[a3]"></a>lcdInit</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, lcdtext.o(.text.lcdInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = lcdInit &rArr; LCD_CLS &rArr; WaitStatus &rArr; GetStatus &rArr; ReadLCD_Cmd &rArr; READ_DATA
 </UL>
-<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
+<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[a4]"></a>lcdTxt</STRONG> (Thumb, 278 bytes, Stack size 56 bytes, lcdtext.o(.text.lcdTxt))
+<P><STRONG><a name="[a4]"></a>lcdTxt</STRONG> (Thumb, 260 bytes, Stack size 56 bytes, lcdtext.o(.text.lcdTxt))
 <BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
 <LI>Call Chain = lcdTxt &rArr; LCD_PUTS_UNINT &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS_UNINT
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS_UNINT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[54]"></a>main</STRONG> (Thumb, 292 bytes, Stack size 64 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 536 + Unknown Stack Size
+<P><STRONG><a name="[54]"></a>main</STRONG> (Thumb, 320 bytes, Stack size 80 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 552 + Unknown Stack Size
 <LI>Call Chain = main &rArr; lcdTxt &rArr; LCD_PUTS_UNINT &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SendData
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sprintf
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flashingDiode
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_PUTS_UNINT
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SendData
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdTxt
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdInit
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_ini
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerInit
@@ -1348,8 +1350,8 @@ Local Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetStatus
 </UL>
-<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_CLS
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_INIT
 </UL>
 
 <P><STRONG><a name="[79]"></a>GetStatus</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, lcd.o(.text.GetStatus))

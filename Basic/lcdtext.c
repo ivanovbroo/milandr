@@ -3,35 +3,27 @@
 void lcdTxt(int counter, const char* name, const char* group, 
 						unsigned int CPUFreq, unsigned int IRQPeriod, 
 						unsigned int UARTSpeed, unsigned int IRQCounter) {	
-							
-	switch(counter) {		
-		case 0:	
-		  LCD_PUTS(0, 0, "ФИО: ");
+	
+			LCD_PUTS(0, 0, "ФИО: ");
 	    LCD_PUTS(30, 0, name);
 	 
-	    LCD_PUTS(0, 16, "Группа: ");
-	    LCD_PUTS(48, 16, group);
+	    LCD_PUTS(0, 8, "Группа: ");
+	    LCD_PUTS(48, 8, group);
 	 
-	    LCD_PUTS(0, 32, "Частота МК: ");
-	    LCD_PUTS_UNINT(72, 32, CPUFreq/1000000);
+	    LCD_PUTS(0, 16, "Частота МК: ");
+	    LCD_PUTS_UNINT(72, 16, CPUFreq/1000000);
 	    LCD_PUTS(90, 32, "МГц");
 	 
-	    LCD_PUTS(0, 48, "Частота прерыв: ");
-	    LCD_PUTS_UNINT(96, 48, IRQPeriod);
-	    LCD_PUTS(108, 48, "сек");
-	    break;
+	    LCD_PUTS(0, 24, "Частота прерыв: ");
+	    LCD_PUTS_UNINT(96, 24, IRQPeriod);
+	    LCD_PUTS(108, 24, "сек");
+			
+			LCD_PUTS(0, 32, "Скор UART: ");
+		  LCD_PUTS_UNINT(66, 32, UARTSpeed);
+		  LCD_PUTS(100, 32, " б/с");
 		
-	  case 1:
-		  LCD_PUTS(0, 0, "Скор UART: ");
-		  LCD_PUTS_UNINT(66, 0, UARTSpeed);
-		  LCD_PUTS(100, 0, "б/с");
-		
-			LCD_PUTS(0, 16, "Кол-во прерыв: ");
-		  LCD_PUTS_UNINT(90, 16, IRQCounter);
-		
-	    break;	
-	}	
-						
+			LCD_PUTS(0, 40, "Кол-во прерыв: ");
+		  LCD_PUTS_UNINT(90, 40, IRQCounter);
 }
 						
 void lcdInit() {

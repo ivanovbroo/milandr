@@ -27,7 +27,7 @@ void setCPUFreq(unsigned int freq) {
 	 while(!(MDR_RST_CLK->CLOCK_STATUS & RST_CLK_CLOCK_STATUS_PLL_CPU_RDY));
 	 
 	 //Задержка памяти программ при чтении в циклах
-	 //MDR_EEPROM->CMD |= 0<<EEPROM_CMD_DELAY_Pos;
+	 //MDR_EEPROM->CMD |= 0x1<<EEPROM_CMD_DELAY_Pos;
 	
 	 // Переключение с HSI на CPU_C2
 	 MDR_RST_CLK->CPU_CLOCK |= 0x1<<RST_CLK_CPU_CLOCK_CPU_C2_SEL_Pos;
@@ -90,7 +90,7 @@ void UART_ini(unsigned int UARTSpeed) {
 	UART_BRGInit(MDR_UART2, UART_HCLKdiv1);
 	
 	uart_user_ini.UART_BaudRate            = UARTSpeed;
-	uart_user_ini.UART_FIFOMode            = UART_FIFO_OFF;
+	uart_user_ini.UART_FIFOMode            = UART_FIFO_ON;
 	uart_user_ini.UART_HardwareFlowControl = UART_HardwareFlowControl_TXE|UART_HardwareFlowControl_RXE;
 	uart_user_ini.UART_Parity              = UART_Parity_No; 
 	uart_user_ini.UART_StopBits            = UART_StopBits1;
